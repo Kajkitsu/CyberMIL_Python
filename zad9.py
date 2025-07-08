@@ -2,4 +2,5 @@
 # Napisz program, który pobierze od użytkownika dowolny string i wyświetli go w odwróconej kolejności.
 # Na przykład, dla wejścia "Python" program powinien wyświetlić: "nohtyP".
 
-print("hello world")
+tekst = input("Podaj tekst do odwrócenia: ")
+print(f"Odwrócony tekst: {tekst[::-1]}")
